@@ -1,0 +1,14 @@
+.sidenav{
+    background-color: #212121;
+    width:200px;
+}
+.sidenav i{
+    padding-right: 15px;
+}
+.content{
+    padding: 16px;
+}
+.mat-drawer-container {
+    background-color: #fff;
+    color: #212121;
+}

@@ -1,0 +1,48 @@
+<mat-sidenav-container class="container">
+    <mat-sidenav class="sidenav" mode= "side" opened
+    fixedInViewport="true" fixedTopGap="64">
+        <mat-nav-list class="nav-list">
+            <a mat-list-item routerLink="/home">
+              <i class="material-icons">
+                    home
+              </i> 
+              Home 
+            </a>
+            <a mat-list-item routerLink="/novidades"> 
+                Novidades
+              </a>            
+              <a mat-list-item routerLink="/roupas">
+
+                Roupas 
+              </a>                          
+              <a mat-list-item routerLink="/modaintima">
+                Moda íntima 
+              </a>                        
+              <a mat-list-item routerLink="/beleza">
+                Beleza
+              </a>
+              <a mat-list-item routerLink="/esportivo">
+                Esportivo
+              </a>
+              <a mat-list-item routerLink="/calcados"> 
+                Calçados
+              </a>
+              <a mat-list-item routerLink="/plussize">
+                Plus Size
+              </a>
+              <a mat-list-item routerLink="/jeans">
+                Jeans
+              </a>
+              <a mat-list-item routerLink="/praia">
+                Praia
+              </a>
+                      
+              <a mat-list-item routerLink="/acessorios"> 
+                Acessórios
+              </a>
+        </mat-nav-list>
+    </mat-sidenav>
+    <mat-sidenav-content class ="content">
+        <router-outlet></router-outlet>
+    </mat-sidenav-content>
+</mat-sidenav-container>
